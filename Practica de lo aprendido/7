@@ -1,0 +1,6 @@
+def es_palindromo(palabra):
+    palabra = palabra.lower().replace(" ", "")
+    return palabra == palabra[::-1]
+
+print(es_palindromo("anilina"))
+print(es_palindromo("hola"))
